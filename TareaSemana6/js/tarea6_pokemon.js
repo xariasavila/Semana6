@@ -1,4 +1,4 @@
-const getPoke2 = async () => {
+const getPokemon = async () => {
   try {
     const request = await axios("https://pokeapi.co/api/v2/pokemon/"); 
     const pokemonData = request.data;
@@ -38,4 +38,4 @@ const getPoke2 = async () => {
     console.log("cargado correctamente");
   }
 };
-getPoke2();
+getPokemon();
