@@ -1,0 +1,39 @@
+for each recibe funcion anonima
+callback = funcion anomima= es lo qe va hacer el metodo
+
+// nombreArreglo.forEach((elementoRecorrer) => {que hace ej 1x1});
+
+map no es un metodo vacio, retorna un nuevo nombreArreglo * no modifica el arreglo original**
+for each no retorna nada, solo recorre *modifica el arreglo**
+
+
+
+// PROMESAS !!
+Todas las conexiones con el servidor son promesas
+sumaHP.then ((resultado)=> {return resultado}).catch((error)=>{return error})
+
+
+- Es un proceso que tiene un tiempo de retraso ( requiere un tiempo de procesamiento) , resultado incierto
+**Prometo pero no aseguro**
+
+Estados:
+1er estado: Pendiente
+2do estado: Resuelto
+3er estado: Error
+
+
+
+// ASYNC AWAIT
+AWAIT : 
+
+
+//API
+Una api es codigo del servidor para conectar el backend con el front
+
+//THEN Y CATCH
+
+THEN : recibe respuesta OK
+ESOERA QUE SE EJECUTE LA PROMESA Y RECIBE si la promesa se resolvio efectivamente.
+Recibe una funcion anonima ( callback) donde el parametro es la respuesta ( data)
+
+CATCH: recibe callback de error
